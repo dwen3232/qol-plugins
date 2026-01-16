@@ -22,7 +22,7 @@ Desktop notifications for Claude Code events on macOS.
 First, add the marketplace to Claude Code:
 
 ```bash
-claude plugin marketplace add dwen3232/claude-notifications
+claude plugin marketplace add dwen3232/claude-plugins
 ```
 
 Then install the plugin:

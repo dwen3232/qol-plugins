@@ -1,11 +1,11 @@
 {
-  "name": "claude-notifications",
+  "name": "qol-plugins",
   "owner": {
     "name": "David Wen",
     "email": "dwen3232@gmail.com"
   },
   "metadata": {
-    "description": "Desktop notifications for Claude Code events",
+    "description": "Quality of life plugins for Claude Code",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
@@ -19,8 +19,8 @@
         "name": "David Wen",
         "email": "dwen3232@gmail.com"
       },
-      "homepage": "https://github.com/dwen3232/claude-notifications",
-      "repository": "https://github.com/dwen3232/claude-notifications",
+      "homepage": "https://github.com/dwen3232/claude-plugins",
+      "repository": "https://github.com/dwen3232/claude-plugins",
       "keywords": ["notifications", "macos", "hooks", "productivity"],
       "category": "productivity"
     }
