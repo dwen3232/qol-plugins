@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "data=$(cat); ${CLAUDE_PLUGIN_ROOT}/scripts/notify.sh \"$(echo \"$data\" | jq -r '.tool_name // \"unknown\"')\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "data=$(cat); ${CLAUDE_PLUGIN_ROOT}/scripts/notify.sh \"$(echo \"$data\" | jq -r '.tool_name // \"unknown\"')\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "data=$(cat); ${CLAUDE_PLUGIN_ROOT}/scripts/notify.sh \"$(echo \"$data\" | jq -r '.hook_event_name // \"Stop\"')\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
