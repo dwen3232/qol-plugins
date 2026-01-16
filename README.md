@@ -19,10 +19,16 @@ Desktop notifications for Claude Code events on macOS.
 
 ## Installation
 
-Install the plugin using Claude Code:
+First, add the marketplace to Claude Code:
 
 ```bash
-claude plugin install dwen3232/claude-notifications
+claude plugin marketplace add dwen3232/claude-notifications
+```
+
+Then install the plugin:
+
+```bash
+claude plugin install claude-notifications
 ```
 
 ## Usage
@@ -46,7 +52,3 @@ Notifications are sent via `terminal-notifier` with:
 - Grouped notifications (group: "claude-code")
 - Default system sound
 - Bypasses Do Not Disturb mode
-
-## License
-
-MIT

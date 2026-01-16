@@ -1,0 +1,28 @@
+{
+  "name": "claude-notifications",
+  "owner": {
+    "name": "David Wen",
+    "email": "dwen3232@gmail.com"
+  },
+  "metadata": {
+    "description": "Desktop notifications for Claude Code events",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "claude-notifications",
+      "source": "./plugins/claude-notifications",
+      "description": "Desktop notifications for Claude Code events (questions, permission requests, stops)",
+      "version": "1.0.0",
+      "author": {
+        "name": "David Wen",
+        "email": "dwen3232@gmail.com"
+      },
+      "homepage": "https://github.com/dwen3232/claude-notifications",
+      "repository": "https://github.com/dwen3232/claude-notifications",
+      "keywords": ["notifications", "macos", "hooks", "productivity"],
+      "category": "productivity"
+    }
+  ]
+}
