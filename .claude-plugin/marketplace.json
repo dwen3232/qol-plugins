@@ -19,8 +19,8 @@
         "name": "David Wen",
         "email": "dwen3232@gmail.com"
       },
-      "homepage": "https://github.com/dwen3232/claude-plugins",
-      "repository": "https://github.com/dwen3232/claude-plugins",
+      "homepage": "https://github.com/dwen3232/qol-plugins",
+      "repository": "https://github.com/dwen3232/qol-plugins",
       "keywords": ["notifications", "macos", "hooks", "productivity"],
       "category": "productivity"
     }
